@@ -1,0 +1,1 @@
+char LoadADX(char *FileSpec);
