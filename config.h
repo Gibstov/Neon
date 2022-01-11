@@ -17,7 +17,7 @@
 #define HWR_COUNT 28	//How many hardware registers
 
 //Data Banks
-#define BANK_COUNT 16
+#define BANK_COUNT 20
 
 //Errors
 

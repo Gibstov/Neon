@@ -54,7 +54,7 @@ while(1)
 			input(0,OutputBuffer,255);
 			if(OutputBuffer[0] == 155)	
 			{				
-				FileSpec = "index.doc";				
+				FileSpec = "INDEX.DOC";				
 				Browse();
 			}
 			else

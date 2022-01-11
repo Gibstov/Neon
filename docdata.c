@@ -139,8 +139,9 @@ char CopyLine()
 	{
 		if(LineCount + LineHeight[AnticMode] > LineLimit)
 		{
-			LineAddress = 0; //Clear Line address so links can be added
-			return 1; //Technically over flow but not a failure if some lines make it	
+			Error = ERR_OVERRUN;
+			//LineAddress = 0; //Clear Line address so links can be added
+			return 0; //Technically over flow but not a failure if some lines make it	
 		}	
 		
 		//Need to add logic to handle crossing 4K Boundary (if (A & 0xF000) != (B x 0xF000) then need LMS)

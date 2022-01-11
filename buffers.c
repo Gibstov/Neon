@@ -43,9 +43,9 @@ int default_dict[ATT_COUNT] = {
 255, 				//ATT_MR
 24,					//ATT_MT
 216,				//ATT_MB
-(int)&EmptyString,		//ATT_NA
-(int)&EmptyString,		//ATT_FS 
-(int)&EmptyString,		//ATT_LI
+(int)&EmptyString,	//ATT_NA
+(int)&EmptyString,	//ATT_FS 
+(int)&EmptyString,	//ATT_LI
 0xFF,				//ATT_ID
 0,					//ATT_OF
 0,					//ATT_SZ
